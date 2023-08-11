@@ -1,2 +1,5 @@
 # 01-yfinance_and_webscraping
-A data science project from Coursera -IBM Data Science Professional Certificate
+
+## Analysing Historical Stock/ Revenue Data and Building a Dashboard
+
+This project is from the IBM Data Science Professional Certifiticate - Python Project for Data Science
