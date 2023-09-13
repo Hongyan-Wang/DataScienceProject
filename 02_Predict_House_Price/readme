@@ -1,1 +1,18 @@
+# 02-Prediction_of_house_price
+
+
+The data set contains house sale price for King County, Seattle. It includes homes between May 2014 and May 2015.
+
+The original data comes from Kaggle: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-wwwcourseraorg-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDA0101ENSkillsNetwork20235326-2022-01-01
+
+This project is conducted based on the Coursera course - Data analysis with Python by IBM.
+
+
+# Conclusions
+
+1. Three predicting technique: Polynomial Regression model, Ridge Regression model and Random forest model, are studied and compored. 
+
+2. From the analysis, it was found that the Random Forest Regression model performed better than the Ridge Regression model and Polynomial Regression model.
+
+3. By using the Folium lib, the location of the house corresponding to the price is ploted. And it was found that location is a very important factor in determining the price of the house.
 
