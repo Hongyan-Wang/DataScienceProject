@@ -1,0 +1,25 @@
+Fraud Dection in Online Transactions
+
+This is the Kaggle project in IEEE Computational Intelligence Society (IEEE-CIS) Fraud Dection:
+Addison Howard, Bernadette Bouchon-Meunier, IEEE CIS, inversion, John Lei, Lynn@Vesta, Marcus2010, Prof. Hussein Abbass. (2019). IEEE-CIS Fraud Detection. Kaggle. https://kaggle.com/competitions/ieee-fraud-detection
+Methodology
+
+I will use following Machine Learning Models to conduct this project
+
+1. Logistic Regression: This is a basic model that can be used as a starting point. It's simple and interpretable.
+2. Decision Trees and Random Forests: These models can capture complex patterns in the data. Random Forests, being an ensemble of decision trees, can provide a more robust solution against overfitting.
+3. Neural Networks: Deep learning models, especially autoencoders, can be used for anomaly detection. An autoencoder tries to reconstruct its input data, and a high reconstruction error can indicate a fraudulent transaction.
+4. Support Vector Machines (SVM): SVMs can be effective, especially when the data is not linearly separable.
+5. K-Nearest Neighbors (KNN): This is an instance-based learning algorithm that can be used for its simplicity and effectiveness.
+6. K-means via RapidsML cuDF: https://www.kaggle.com/code/suraj520/k-means-via-rapidsml-cudf-know-fit-infer
+
+The following Techniques will be involved:
+
+1. Principal Component Analysis (PCA): Given that credit card registers are considered personal information and cannot be shared publicly, PCA can be used to mask the actual variables, changing not only their names but also their numeric values. This allows for dimensionality reduction and working with real data without revealing any personal information.
+2. Handling Imbalanced Data: Fraudulent transactions are typically much fewer than legitimate ones, leading to class imbalance. Techniques like oversampling, undersampling, and using the Synthetic Minority Over-sampling Technique (SMOTE) can help balance the classes.
+The data comes from Vesta's real-world e-commerce transactions and contains a wide range of features from device type to product features.
+
+References
+[1] Data Science in Banking: Fraud Detection. https://www.datacamp.com/blog/data-science-in-banking
+[2] Modelling Credit Card Frauds. https://towardsdatascience.com/modelling-credit-card-fraud-detection-e3006dd212ab
+[3] 1st Place Solution. https://www.kaggle.com/c/ieee-fraud-detection/discussion/111284
