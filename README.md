@@ -3,9 +3,41 @@ This is a folder of data science project practice
 
 ## 01 - yfinance_and_webscraping
 
-Analysing Historical Stock/ Revenue Data and Building a Dashboard
+### Analysing Historical Stock/ Revenue Data and Building a Dashboard
 
 This project is from the IBM Data Science Professional Certifiticate - Python Project for Data Science
+    
+### 1. Extracting data using a Python Library
+
+- Using yfinance to Extract Stock Info
+- Using yfinance to Extract Historical Share Price Data
+- Using yfinance to Extract Historical Dividends Data 
+
+### 2. Extracting data using Beautiful soupe 
+
+- Downloading the Webpage Using Requests Library
+- Parsing Webpage HTML Using BeautifulSoup
+- Extracting Data and Building DataFrame
+
+
+**Using the yfinance Library to extract stock data**
+
+Using the `Ticker` module we can create an object that will allow us to access functions to extract data.
+
+`AAPL` - Apple Inc
+
+`GOOG` - Google
+
+`MSFT` - Microsoft
+
+`AMZN` - Amazon.com, Inc.
+
+### 3. Analysis
+#### 3.1.Check the price of stock overtime
+#### 3.2.Analysis of Moving Average of various stocks
+#### 3.3.Daily Return of stock on average
+#### 3.4.Correlation between different stock's closing price
+#### 3.5.How much value is at risk by investing in a particular stock
 
 ## 02 - Prediction_of_house_price
 
